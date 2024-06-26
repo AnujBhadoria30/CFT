@@ -1,0 +1,213 @@
+body{
+  user-select: none;
+}
+.Container
+{
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  position: relative;
+  background-image: url("https://wallpapers.com/images/hd/aesthetic-yellow-background-aug1x5jtug1dl5yo.jpg");
+}
+.Card
+{
+  height: 300px;
+  /* flex: 1; */
+  width: 320px;
+  box-shadow:2px 0px 25px rgb(74, 72, 75) ;
+  background-image: url("https://w0.peakpx.com/wallpaper/606/388/HD-wallpaper-yellow-sunset-background-plain-white-thumbnail.jpg");
+  border-radius: 15px;
+  display:flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  padding: 2px;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.Card h2
+{
+  font-size: 1.3rem ;
+  padding-left: 10px;
+  color: rgb(26, 25, 25);
+  margin-block: 5px;
+}
+.Card p{
+  padding-left: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: gray;
+}
+.Card span
+{
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-weight: 700;
+  color: red;
+}
+.Cross
+{
+  position: absolute;
+  top: 5px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  margin-top: .2rem;
+
+
+}
+.Cross p{
+   
+    /* font-weight: 600; */
+    text-align: end;
+    margin-right: 10px;
+    color: rgb(138, 116, 19);
+    cursor: pointer;
+
+}
+#pgination
+{
+  width: 20%;
+  height: 45px;
+  /* border: 2px solid red; */
+  /* align-items: center; */
+  margin-left: 50px;
+  /* background: red; */
+  position: absolute;
+  gap: 24px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  overflow-x: scroll;
+  /* padding-left: 10px; */
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.SearchBar{
+  display: flex;
+  background: white;
+  
+}
+.bdr{
+  border: none
+}
+.icon {
+  padding: 2px;
+  margin-top: 1px;
+  display: inline-block; 
+  border-radius: 50%; 
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  */
+  transition: background-color 0.3s, transform 0.3s; 
+}
+
+.icon:hover {
+  background-color: #e0e0e0; 
+  transform: translateY(-2px); 
+}
+.Pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  /* border: 2px solid red; */
+  /* overflow-x: scroll; */
+  /* width: 250px; */
+}
+
+.Pagination span {
+  background: rgb(114, 110, 110);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  color: white;
+  text-align: center;
+  margin: 0 5px;
+  cursor: pointer;
+  /* border: 2px solid red; */
+
+}
+
+.Pagination span:hover {
+  background: rgb(132, 91, 91);
+  border: 2px solid rgb(221, 180, 68);
+
+}
+
+.ScrollStyle {
+  height: 55px;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-color: rgb(235, 225, 225);
+  display: flex;
+  align-items: center;
+  
+  justify-content: center;
+}
+
+.name{
+  /* border:2px solid red; */
+  width: 250px;
+}
+.card-container {
+  margin: 10px;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  height: 700px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.Card {
+  /* background-color: #f9f9f9; */
+  padding: 5px;
+  /* border-bottom: 2px solid #532525; */
+}
+
+.Cross {
+  cursor: pointer;
+  float: right;
+  margin-top: -10px;
+  margin-right: -5px;
+}
+
+.comment {
+  margin-top: 10px;
+  padding: 10px;
+  width: 310px;
+  /* background-color: #f0f0f0; */
+  border-radius: 5px;
+}
+
+.comment h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.comment ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comment li {
+  margin-bottom: 5px;
+  /* border:  2px solid red; */
+  padding: 2px;
+  list-style:  disc;
+}
+.sizing{
+  background-image: url("https://wallpapers.com/images/hd/aesthetic-yellow-background-aug1x5jtug1dl5yo.jpg");
+  /* border: 2px solid red ; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+button{
+  border: 2px solid gray;
+  
+}
